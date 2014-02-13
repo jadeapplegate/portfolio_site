@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-color: #E1EDED;
+  background-color: #002C2B;
 	background-position: center;
 	color: #063058;
   font-family: georgia, serif;
   font-size: 22px;
 }
 h1 {
-	color: black;
+	color: #002C2B;
 	height: 100px;
 	font-size: 24px;
 	font-weight: bold;
@@ -18,11 +18,12 @@ h1 {
 	margin-bottom: 20px;
 	font-size: 70px;
 	padding-top: 60px;
-	text-shadow: 2px 2px 3px #BBB;
+	text-shadow: 1px 1px 2px #CEE;
 }
 h2 {
 	color: white;
 	margin: 0px;
+	text-shadow: 1px 1px 2px #CEE;
 }
 header {
 	text-align: center;
@@ -34,8 +35,11 @@ img {
 	border-radius: 20px;
 }
 ul {
-	padding: 15px;
+	padding: 12px;
 	background: #D0E15B;
+	text-shadow: 1px 1px 2px #333;
+	font-family: helvetica, sans-serif; 
+	font-weight: bold;
 }
 li {
 	display: inline;
@@ -52,20 +56,27 @@ a {
 	height: 600px;
 	position: relative;
 	padding-top:300px;
+	text-align: center;
 }
 .photo p {
 	color:white;
+	text-shadow: 2px 2px 3px #333;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: left;
 }
 #about {
 	background-image: url("./vertical-slats.jpg");
 }
 #hobbies {
-	background-image: url("./rock.jpg");
+	background-image: url("./green-texture.jpg");
 }
 #follow {
 	background-image: url("./creased-paper.jpg");
 }
+#follow p {
+	text-align: center;
+}
 #profile-image {
 	margin-bottom: 150px;
-	margin-top: 75px;
 }
