@@ -3,24 +3,22 @@ body {
   background-color: #E1EDED;
 	background-position: center;
 	color: #063058;
-  font-family: georgia, sans-serif;
+  font-family: georgia, serif;
   font-size: 22px;
 }
 h1 {
 	color: black;
 	height: 100px;
 	font-size: 24px;
-	font-weight: normal;
-	left: 0;
+	font-weight: bold;
 	line-height: 40px;
 	text-align: center;
-	top: 0;
 	width: 100%;
-	z-index: 1;
 	margin-top:0px;
 	margin-bottom: 20px;
 	font-size: 70px;
 	padding-top: 60px;
+	text-shadow: 2px 2px 3px #BBB;
 }
 h2 {
 	color: white;
@@ -28,7 +26,7 @@ h2 {
 }
 header {
 	text-align: center;
-  background-image: url("./chevron.png");
+  background-image: url("./teal-cloth.jpg");
 }
 img {
 	margin: 40px 0px 0px 0px;
@@ -36,8 +34,8 @@ img {
 	border-radius: 20px;
 }
 ul {
-	padding: 10px;
-	background: #067A89;
+	padding: 15px;
+	background: #D0E15B;
 }
 li {
 	display: inline;
@@ -47,7 +45,6 @@ a {
 	color: white;
 	text-decoration:none;  
 }
-
 .photo {
 	background-attachment: fixed;
 	background-position: 50% 0;
@@ -59,7 +56,6 @@ a {
 .photo p {
 	color:white;
 }
-
 #about {
 	background-image: url("./vertical-slats.jpg");
 }
