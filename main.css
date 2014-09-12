@@ -27,7 +27,7 @@ h2 {
 }
 header {
 	text-align: center;
-  background-image: url("./teal-cloth.jpg");
+  background-image: url("./assets/teal-cloth.jpg");
 }
 img {
 	margin: 40px 0px 0px 0px;
@@ -66,13 +66,13 @@ a {
 	text-align: left;
 }
 #about {
-	background-image: url("./vertical-slats.jpg");
+	background-image: url("./assets/vertical-slats.jpg");
 }
 #hobbies {
-	background-image: url("./green-texture.jpg");
+	background-image: url("./assets/green-texture.jpg");
 }
 #follow {
-	background-image: url("./creased-paper.jpg");
+	background-image: url("./assets/creased-paper.jpg");
 }
 #follow p {
 	text-align: center;
