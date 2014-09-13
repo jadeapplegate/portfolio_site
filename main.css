@@ -67,6 +67,17 @@ a {
 	text-align: left;
 }
 
+.projects {
+/*	background-attachment: fixed;*/
+/*	background-position: 50% 0;*/
+/*	background-repeat: no-repeat;*/
+	height: 60px;
+	width: 60px;
+/*	position: relative;*/
+/*	text-align: auto;*/
+	display: inline-block;
+}
+
 #about {
 	background-image: url("./assets/creased-paper.jpg");
 	color: black;
