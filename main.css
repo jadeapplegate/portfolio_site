@@ -6,6 +6,7 @@ body {
   font-family: georgia, serif;
   font-size: 22px;
 }
+
 h1 {
 	color: #002C2B;
 	height: 100px;
@@ -20,21 +21,24 @@ h1 {
 	padding-top: 60px;
 	text-shadow: 1px 1px 2px #CEE;
 }
+
 h2 {
 	color: white;
 	margin: 0px;
 	text-shadow: 1px 1px 2px #CEE;
 }
+
 header {
 	text-align: center;
 	background-color: lightcyan;
-/*  background-image: url("./assets/teal-cloth.jpg");*/
 }
+
 img {
 	margin: 40px 0px 0px 0px;
 	border: 7px solid white;
 	border-radius: 20px;
 }
+
 ul {
 	padding: 12px;
 	background: lightgrey;
@@ -42,14 +46,16 @@ ul {
 	font-family: helvetica, sans-serif; 
 	font-weight: bold;
 }
+
 li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
 }
+
 a {
-/*	color: white;*/
 	text-decoration:none;  
 }
+
 .photo {
 	background-attachment: fixed;
 	background-position: 50% 0;
@@ -66,25 +72,18 @@ a {
 	margin-right: 200px;
 	text-align: left;
 }
-
-.projects {
-/*	background-attachment: fixed;*/
-/*	background-position: 50% 0;*/
-/*	background-repeat: no-repeat;*/
-	height: 60px;
-	width: 60px;
-/*	position: relative;*/
-/*	text-align: auto;*/
-	display: inline-block;
+.projects{
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.projects img {
+	width: 100%;
 }
 
 #about {
 	background-image: url("./assets/creased-paper.jpg");
 	color: black;
-}
-
-#projects {
-/*	background-image: url("./assets/green-texture.jpg");*/
 }
 
 #follow {
