@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #002C2B;
+  background-color: LIGHTSLATEGRAY;
 	background-position: center;
 	color: #063058;
   font-family: georgia, serif;
@@ -27,7 +27,8 @@ h2 {
 }
 header {
 	text-align: center;
-  background-image: url("./assets/teal-cloth.jpg");
+	background-color: lightcyan;
+/*  background-image: url("./assets/teal-cloth.jpg");*/
 }
 img {
 	margin: 40px 0px 0px 0px;
@@ -36,7 +37,7 @@ img {
 }
 ul {
 	padding: 12px;
-	background: #D0E15B;
+	background: lightgrey;
 	text-shadow: 1px 1px 2px #333;
 	font-family: helvetica, sans-serif; 
 	font-weight: bold;
@@ -65,18 +66,23 @@ a {
 	margin-right: 200px;
 	text-align: left;
 }
+
 #about {
-	background-image: url("./assets/vertical-slats.jpg");
+	background-image: url("./assets/creased-paper.jpg");
 }
-#hobbies {
-	background-image: url("./assets/green-texture.jpg");
+
+#projects {
+/*	background-image: url("./assets/green-texture.jpg");*/
 }
+
 #follow {
 	background-image: url("./assets/creased-paper.jpg");
 }
+
 #follow p {
 	text-align: center;
 }
+
 #profile-image {
 	margin-bottom: 150px;
 }
